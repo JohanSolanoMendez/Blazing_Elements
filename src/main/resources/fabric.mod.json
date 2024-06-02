@@ -1,29 +1,33 @@
 {
 	"schemaVersion": 1,
-	"id": "blazing_elements",
+	"id": "blazingelements",
 	"version": "${version}",
-	"name": "Blazing_elements",
+	"name": "Blazing Elements",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Johan979",
+		"JohnHito"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/blazing_elements/icon.png",
+	"icon": "assets/blazingelements/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.bizwiz.Blazing_elements"
+			"net.bizwiz.BlazingElements"
+		],
+		"client": [
+			"net.bizwiz.BlazingElementsModClient"
 		],
 		"fabric-datagen": [
-			"net.bizwiz.Blazing_elementsDataGenerator"
+			"net.bizwiz.BlazingElementsDataGenerator"
 		]
 	},
 	"mixins": [
-		"blazing_elements.mixins.json"
+		"blazingelements.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

@@ -1,0 +1,9 @@
+{
+  "parent": "blazingelements:custom/pedestal_uncharge_sword",
+  "textures": {
+    "all": "blazingelements:block/pedestal1",
+    "particle": "blazingelements:block/pedestal1",
+    "1": "blazingelements:block/pedestal1"
+  },
+  "render_type": "solid"
+}
