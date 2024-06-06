@@ -1,4 +1,4 @@
-package net.bizwiz.item;
+package net.bizwiz.item.custom;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;

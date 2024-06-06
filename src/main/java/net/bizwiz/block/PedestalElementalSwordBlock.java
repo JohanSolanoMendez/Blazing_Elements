@@ -63,7 +63,7 @@ public class PedestalElementalSwordBlock extends HorizontalFacingBlock {
                 ItemStack itemStack = new ItemStack(DropItem);
                 BlockPos dropPos = pos.offset(Direction.UP);
                 Block.dropStack(world, dropPos, itemStack);
-                world.setBlockState(dropPos, state.with(BLOCKSTATE, 2));
+                world.setBlockState(pos, state.with(BLOCKSTATE, 2));
             }
         }
         return ActionResult.SUCCESS;

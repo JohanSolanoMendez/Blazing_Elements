@@ -4,11 +4,11 @@
   "item.blazingelements.brinerod": "Brine Rod",
   "item.blazingelements.brinepowder": "Brine Powder",
   "item.blazingelements.blazingpickaxe": "Blaze Pickaxe",
-  "item.blazingelements.unchargeelementalsword": "Uncharge Elemental Sword",
+  "item.blazingelements.unchargeelementalsword": "Uncharged Elemental Sword",
 
   "block.blazingelements.pedestal_elemental_sword": "Elemental Pedestal Sword",
 
-
+  "item.blazingelements.unchargedelementalsword.tooltip": "This sword is very powerful, but does not have a charge",
 
   "itemgroup.blazingtab": "Blazing Elements"
 }

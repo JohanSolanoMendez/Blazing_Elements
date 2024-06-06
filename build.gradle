@@ -19,6 +19,8 @@ repositories {
 			includeGroup("com.eliotlash.mclib")
 		}
 	}
+
+	maven { url 'https://maven.blamejared.com' }
 }
 
 fabricApi {
@@ -35,7 +37,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation("software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}")
 	implementation("com.eliotlash.mclib:mclib:20")
-	
+	modImplementation "vazkii.patchouli:Patchouli:1.20.4-85-FABRIC"
 }
 
 processResources {

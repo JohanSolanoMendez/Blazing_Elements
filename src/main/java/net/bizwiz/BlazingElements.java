@@ -1,8 +1,8 @@
 package net.bizwiz;
 
-import net.bizwiz.block.ModBlocks;
-import net.bizwiz.item.ModItemGroup;
-import net.bizwiz.item.ModItems;
+import net.bizwiz.block.BlazingBlocks;
+import net.bizwiz.item.BlazingItemGroup;
+import net.bizwiz.item.BlazingItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,8 +14,8 @@ public class BlazingElements implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
-		ModItemGroup.registerItemGroup();
-		ModBlocks.registerModBlocks();
+		BlazingItems.registerModItems();
+		BlazingItemGroup.registerItemGroup();
+		BlazingBlocks.registerModBlocks();
 	}
 }
