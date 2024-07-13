@@ -50,14 +50,14 @@ public class BlockMixin {
             }
         }
         if(!world.isClient){
-            world.playSound(null,pos, SoundEvents.BLOCK_FIRE_EXTINGUISH, SoundCategory.BLOCKS,1f, 1f);
+            world.playSound(null,pos, SoundEvents.BLOCK_FIRE_EXTINGUISH, SoundCategory.BLOCKS,0.3f, 1f);
             generateFireExplosion(world,pos);
         }
         cir.setReturnValue(items);
     }
 
     private static void generateFireExplosion(ServerWorld world, BlockPos pos) {
-        for (int i = 0; i < 360; i += 10) { // Crear partículas en un círculo de 360 grados
+        for (int i = 0; i < 360; i += 5) { // Crear partículas en un círculo de 360 grados
             double radians = Math.toRadians(i);
             double xSpeed = Math.cos(radians);
             double zSpeed = Math.sin(radians);

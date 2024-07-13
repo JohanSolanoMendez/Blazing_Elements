@@ -21,6 +21,9 @@ public class BlazingItemGroup {
                         entries.add(BlazingItems.BLAZINGPICKAXE);
                         entries.add(BlazingItems.UNCHARGEELEMENTALSWORD);
                         entries.add(BlazingBlocks.PEDESTALSWORD);
+                        entries.add(BlazingItems.BOULDROSBOULDER);
+                        entries.add(BlazingItems.BOULDROSCLAW);
+                        entries.add(BlazingItems.BLAZINGSTAFF);
                     }).build());
     public static void registerItemGroup(){
         BlazingElements.LOGGER.info("Registering Item Groups for " +

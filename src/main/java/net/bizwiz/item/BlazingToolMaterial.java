@@ -7,8 +7,9 @@ import net.minecraft.recipe.Ingredient;
 
 public enum BlazingToolMaterial implements ToolMaterial {
 
-    BLAZE(5,900,4.5f,2.5f,10,()->Ingredient.ofItems(Items.BLAZE_POWDER)),
-    ANCIENT(3,1000,1.0f,3.0f,22,()->Ingredient.ofItems(BlazingItems.BOULDROSROD));
+    BLAZE(5,900,8.5f,2.5f,10,()->Ingredient.ofItems(Items.BLAZE_POWDER)),
+    BOULDROS(5,900,8.5f,2.5f,7,()->Ingredient.ofItems(BlazingItems.BOULDROSBOULDER)),
+    ANCIENT(3,700,8.0f,3.0f,22,()->Ingredient.ofItems(BlazingItems.BOULDROSROD));
 
     private final int miningLevel;
     private final int itemDurability;

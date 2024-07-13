@@ -1,14 +1,24 @@
 {
-  "item.blazingelements.primordialfiregem": "Primordial Fire Gem",
-  "item.blazingelements.bouldrosrod": "Bouldros Rod",
-  "item.blazingelements.brinerod": "Brine Rod",
-  "item.blazingelements.brinepowder": "Brine Powder",
-  "item.blazingelements.blazingpickaxe": "Blaze Pickaxe",
-  "item.blazingelements.unchargeelementalsword": "Uncharged Elemental Sword",
+  "item.blazingelements.primordial_fire_gem": "Primordial Fire Gem",
+  "item.blazingelements.bouldros_rod": "Bouldros Rod",
+  "item.blazingelements.brine_rod": "Brine Rod",
+  "item.blazingelements.brine_powder": "Brine Powder",
+  "item.blazingelements.blazing_pickaxe": "Blaze Pickaxe",
+  "item.blazingelements.uncharged_elemental_sword": "Uncharged Elemental Sword",
+  "item.blazingelements.bouldros_boulder": "Bouldros Boulder",
+  "item.blazingelements.bouldros_claw": "Bouldros Claw",
+  "item.blazingelements.blazing_staff": "Blazing Staff",
 
   "block.blazingelements.pedestal_elemental_sword": "Elemental Pedestal Sword",
 
-  "item.blazingelements.unchargedelementalsword.tooltip": "This sword is very powerful, but does not have a charge",
+  "enchantment.blazingelements.spawner_breaker": "Spawner Breaker",
+
+  "item.blazingelements.uncharged_elemental_sword.tooltip": "This sword is very powerful, but does not have a charge",
+
+  "advancement.blazingelements.hero_sword_title": "Ancient Hero's Sword",
+  "advancement.blazingelements.hero_sword_description": "Ancestral sword of a fallen hero",
+  "advancement.blazingelements.bouldros_rod_title": "Another Blaze?!",
+  "advancement.blazingelements.bouldros_rod_description": "Get one Bouldros Rod",
 
   "itemgroup.blazingtab": "Blazing Elements"
 }

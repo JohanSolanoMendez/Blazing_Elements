@@ -1,6 +1,7 @@
 package net.bizwiz;
 
 import net.bizwiz.block.BlazingBlocks;
+import net.bizwiz.enchantment.BlazingEnchantments;
 import net.bizwiz.item.BlazingItemGroup;
 import net.bizwiz.item.BlazingItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class BlazingElements implements ModInitializer {
 		BlazingItems.registerModItems();
 		BlazingItemGroup.registerItemGroup();
 		BlazingBlocks.registerModBlocks();
+		BlazingEnchantments.registerModEnchantments();
 	}
 }

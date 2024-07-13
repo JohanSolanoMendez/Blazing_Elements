@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "blazingelements:item/uncharged_elemental_sword"
+  }
+}

@@ -1,18 +1,23 @@
 {
-	"required": true,
-	"package": "net.bizwiz.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin",
-		"BlockMixin"
-	],
-	"server": [
-
-	],
-	"client": [
-
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "net.bizwiz.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockMixin",
+    "ExampleMixin",
+    "MobSpawnerBlockEntityInvoker",
+    "SpawnerBlockItemMixin",
+    "SpawnerBreakerMixin",
+    "SpawnerNoExperienceMixin"
+  ],
+  "server": [
+  ],
+  "client": [
+    "ItemRendererAccessor",
+    "ItemRendererMixin",
+    "ModelLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }

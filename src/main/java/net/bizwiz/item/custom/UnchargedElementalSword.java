@@ -17,6 +17,6 @@ public class UnchargedElementalSword extends SwordItem {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.blazingelements.unchargedelementalsword.tooltip"));
+        tooltip.add(Text.translatable("item.blazingelements.uncharged_elemental_sword.tooltip"));
     }
 }
